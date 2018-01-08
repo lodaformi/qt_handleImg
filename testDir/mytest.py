@@ -1,3 +1,4 @@
-xlst = ['1', 'b', 'xxx']
-for x in xlst:
-    print(x)
+dmcFile = 'H:\code\medicalUI\imgs\dicom\9000099.dcm'
+
+if dmcFile.__contains__('dcm'):
+    print(True)
